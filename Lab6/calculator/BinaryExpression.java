@@ -18,8 +18,8 @@ public class BinaryExpression extends Expression
 
     public double evaluate(final Bindings bindings)
     {
-        double l = lft.evaluate(bindings);
-        double r = rht.evaluate(bindings);
+        double left = lft.evaluate(bindings);
+        double right = rht.evaluate(bindings);
         double result = _applyOperator(l,r);
         return result;
     }

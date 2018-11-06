@@ -1,3 +1,0 @@
-Lab1's objective is to be able to iterate through different Java collections with various control loops and properly write classes for each method. It also introduced us with JUnit's framework. It required us to use the JUnit unit testing and even write some of our own test cases for our code. We lastly had to create a very simple UML diagram of a class he gave us, which was a nice introduction to what we had to do for our assignments in the later future.
-
-This lab was very helpful in understanding for and foreach loops, and the different Java collections we had to implement in each of our method.

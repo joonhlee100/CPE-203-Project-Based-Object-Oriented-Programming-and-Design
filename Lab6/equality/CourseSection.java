@@ -22,7 +22,6 @@ class CourseSection
 
    public int hashCode()
    {
-      //hash makes int key. everything set by default to zero if empty. If not empty, it gets hashed and added to result key (some # int).
       int prefixSH = 0;
       int numberSH = 0;
       int enrollmentSH = 0;

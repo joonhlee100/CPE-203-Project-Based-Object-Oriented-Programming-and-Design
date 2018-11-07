@@ -10,7 +10,7 @@ class AddExpression
       this.rht = rht;
    }
 
-   public double _applyOperator(final Bindings bindings)
+    public double evaluate(final Bindings bindings)
    {
       return lft.evaluate(bindings) + rht.evaluate(bindings);
    }

@@ -1,4 +1,4 @@
-public class BinaryExpression extends Expression
+public abstract class BinaryExpression implements Expression
 {
     private final Expression lft;
     private final Expression rht;
@@ -24,5 +24,5 @@ public class BinaryExpression extends Expression
         return result;
     }
 
-    protected abstract double _applyOperator(double lftt, double rht) {}
+    protected abstract double _applyOperator(double lftt, double rht);
 }

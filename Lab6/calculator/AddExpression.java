@@ -1,4 +1,4 @@
-class AddExpression
+abstract class AddExpression
    implements Expression
 {
    private final Expression lft;
@@ -10,8 +10,8 @@ class AddExpression
       this.rht = rht;
    }
 
-    public double evaluate(final Bindings bindings)
+    public double _applyOperator(Double left, Double right)
    {
-      return lft.evaluate(bindings) + rht.evaluate(bindings);
+      return  left + right;
    }
 }

@@ -18,16 +18,11 @@ public abstract class BinaryExpression implements Expression
 
     public double evaluate(final Bindings bindings)
     {
-        double left = lft.evaluate(bindings);
-        double right = rht.evaluate(bindings);
+        double l = lft.evaluate(bindings);
+        double r = rht.evaluate(bindings);
         double result = _applyOperator(l,r);
         return result;
     }
 
-<<<<<<< HEAD
-    protected abstract double _applyOperator(double lftt, double rht);
+    protected abstract double _applyOperator(double lft, double rht);
 }
-=======
-    protected abstract double _applyOperator(double lftt, double rht) {}
-}
->>>>>>> ebe284fc889f2f3961a5a09baaf392f23fb171f4
